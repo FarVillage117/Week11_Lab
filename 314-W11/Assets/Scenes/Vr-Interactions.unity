@@ -18968,7 +18968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5c040afdc62b684281a3f1afe24cb8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressControl: {fileID: 1975755230}
+  progressControl: {fileID: 0}
   msgTexts:
   - {fileID: 527180307}
   - {fileID: 28620887}
@@ -32547,8 +32547,8 @@ MonoBehaviour:
   - {fileID: 704503772}
   infoText: {fileID: 0}
   lockedPanel: {fileID: 1696348146}
-  unlockedColor: {r: 0, g: 0, b: 0, a: 0}
-  lockedColor: {r: 0, g: 0, b: 0, a: 0}
+  unlockedColor: {r: 0.14832264, g: 0.7735849, b: 0.091954395, a: 0}
+  lockedColor: {r: 0.82641506, g: 0.067048706, b: 0.067048706, a: 0}
   lockedText: {fileID: 0}
   isLocked: 0
   isResettable: 0
@@ -50336,6 +50336,177 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b93142c0fa8a4bb449f63be9c533a20d, type: 3}
+--- !u!1 &1917270713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1917270714}
+  - component: {fileID: 1917270716}
+  - component: {fileID: 1917270715}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1917270714
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917270713}
+  m_LocalRotation: {x: 0, y: 0.70710677, z: -0.70710677, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4188075875541460334}
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.54}
+  m_SizeDelta: {x: 20, y: 5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1917270715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917270713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 1234
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 43.8
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 5
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 5.1242185, y: -2.183642, z: 5.0952373, w: -1.9710674}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 1917270716}
+  m_maskType: 0
+--- !u!23 &1917270716
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917270713}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &1920403832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2fa2b7c1010adcb4c8dbceef87de572a, type: 3}
@@ -51606,7 +51777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1975755231}
-  - component: {fileID: 1975755230}
+  - component: {fileID: 1975755232}
   m_Layer: 0
   m_Name: ProgressControl
   m_TagString: Untagged
@@ -51614,31 +51785,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1975755230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975755229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b521f661540bc0848ba751f6fd306588, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnStartGame:
-    m_PersistentCalls:
-      m_Calls: []
-  OnChallengeComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  startButton: {fileID: 527212952}
-  keyIndicatorLight: {fileID: 901229136}
-  drawer: {fileID: 8884346408297993648}
-  startGameString: Press Start Button to Enable Key Indicator Light
-  challengeStrings:
-  - Find Key and Unlock Dresser
-  - Hold down Physics button to detatch drawer to find combo for the explosives cabinet
 --- !u!4 &1975755231
 Transform:
   m_ObjectHideFlags: 0
@@ -51654,6 +51800,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1975755232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975755229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42ac92dacc94e0046b50d03a7f61c822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnStartGame:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChallengeComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  startButton: {fileID: 527212952}
+  keyIndicatorLight: {fileID: 901229136}
+  drawer: {fileID: 0}
+  startGameString: Press Start to enable key indicator light
+  challengeStrings:
+  - Find Key and unlock Dresser
+  - Hold physics button down to get to unlock dresser
+  - Input the combo to unlock cabinet
 --- !u!4 &1977734734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c6a0abfe6af29d444b0b190f5ffd1a2a, type: 3}
@@ -53711,7 +53883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559059fd0f27d26449c6a85c1ab00117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressControl: {fileID: 1975755230}
+  progressControl: {fileID: 0}
   progressSound: {fileID: 2007100963}
   startGameClip: {fileID: 8300000, guid: a9111467000a3ba4aa985d1aa06805c1, type: 3}
   challengeCompleteClip: {fileID: 8300000, guid: dff3014fa4e23374685962fafb39949f, type: 3}
@@ -60996,7 +61168,8 @@ Transform:
   m_LocalPosition: {x: -0.01760006, y: -1.0710001, z: -4.611201}
   m_LocalScale: {x: 7.6320906, y: 1, z: 7.829716}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1917270714}
   m_Father: {fileID: 2216016697499137176}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4218335103520632606
@@ -66372,10 +66545,10 @@ MonoBehaviour:
   m_InteractionManager: {fileID: 1952572935}
   m_Colliders: []
   m_InteractionLayerMask:
-    serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
     m_Bits: 2
+    m_Mask: 2
   m_DistanceCalculationMode: 1
   m_SelectMode: 0
   m_FocusMode: 1
@@ -66390,75 +66563,99 @@ MonoBehaviour:
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_LastHoverExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_HoverEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_HoverExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_LastSelectExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_LastFocusExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_FocusEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_FocusExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
   m_StartingInteractionStrengthFilters: []
+  m_RegisteredInteractionManager: {fileID: 0}
   m_OnFirstHoverEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnLastHoverExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnSelectEntered:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnSelectCanceled:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnActivate:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
@@ -66487,10 +66684,8 @@ MonoBehaviour:
   m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
-    serializedVersion: 2
     m_Curve:
-    - serializedVersion: 3
-      time: 1
+    - time: 1
       value: 1
       inSlope: 0
       outSlope: 0
@@ -66509,6 +66704,34 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+  m_GrabCountChanged: 0
+  m_IsProcessingGrabTransformers: 0
+  m_DropTransformersCount: 0
+  m_TargetPose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_TargetLocalScale: {x: 0, y: 0, z: 0}
+  m_IsTargetPoseDirty: 0
+  m_IsTargetLocalScaleDirty: 0
+  m_CurrentAttachEaseTime: 0
+  m_CurrentMovementType: 0
+  m_DetachInLateUpdate: 0
+  m_DetachLinearVelocity: {x: 0, y: 0, z: 0}
+  m_DetachAngularVelocity: {x: 0, y: 0, z: 0}
+  m_ThrowSmoothingCurrentFrame: 0
+  m_ThrowSmoothingFirstUpdate: 0
+  m_LastThrowReferencePose:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_Rigidbody: {fileID: 0}
+  m_WasKinematic: 0
+  m_UsedGravity: 0
+  m_OldLinearDamping: 0
+  m_OldAngularDamping: 0
+  m_IgnoringCharacterCollision: 0
+  m_StopIgnoringCollisionInLateUpdate: 0
+  m_SelectingCharacterController: {fileID: 0}
+  m_OriginalSceneParent: {fileID: 0}
   drawerTransform: {fileID: 2216016697499137176}
   keySocket: {fileID: 3933860242529008262}
   physicsButton: {fileID: 0}
@@ -66516,6 +66739,9 @@ MonoBehaviour:
   isLocked: 1
   isDetachable: 0
   isDetached: 0
+  parentTransform: {fileID: 0}
+  isGrabbed: 0
+  limitPositions: {x: 0, y: 0, z: 0}
   drawerLimitZ: 0.8
   limitDistances: {x: 0.05, y: 0.05, z: 0}
   drawerMoveClip: {fileID: 8300000, guid: 5a473077dfada7641998c47c8e78f28e, type: 3}
