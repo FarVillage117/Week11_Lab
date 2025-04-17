@@ -44765,7 +44765,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559161637}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000010249}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44773,8 +44773,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -5.0999985, y: 0.19999981}
-  m_SizeDelta: {x: 20, y: 0}
+  m_AnchoredPosition: {x: -4.0999985, y: 0.000002861023}
+  m_SizeDelta: {x: 20.24, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1559161639
 BoxCollider:
@@ -44795,7 +44795,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7, y: 7, z: 1}
+  m_Size: {x: 20, y: 20, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1559161640
 MonoBehaviour:
@@ -44899,11 +44899,11 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  buttonImage: {fileID: 1655676969}
+  buttonImage: {fileID: 1559161641}
   normalColor: {r: 0.02483566, g: 0.8773585, b: 0.012415428, a: 0}
   highlightedColor: {r: 0.16652432, g: 0.8773585, b: 0.120016046, a: 0}
   pressedColor: {r: 0.10840159, g: 0.7924528, b: 0.18133143, a: 0}
-  selectedColor: {r: 0.8871899, g: 0.9433962, b: 0.88554645, a: 0}
+  selectedColor: {r: 0.14134514, g: 0.7509433, b: 0.05525801, a: 0}
 --- !u!114 &1559161641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44917,7 +44917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.23703288, g: 0.86415094, b: 0.030978873, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -58360,32 +58360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42ac92dacc94e0046b50d03a7f61c822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnStartGame:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  OnChallengeComplete:
-    m_PersistentCalls:
-      m_Calls: []
-    m_CallsDirty: 1
-  startButton: {fileID: 527212952}
-  keyIndicatorLight: {fileID: 901229136}
-  drawer: {fileID: 0}
-  drawerSocket: {fileID: 0}
-  comboLock: {fileID: 0}
-  wall: {fileID: 0}
-  wallSocket: {fileID: 0}
-  teleportationAreas: {fileID: 0}
-  startGameString: Press Start to enable key indicator light
-  challengeStrings:
-  - Find Key and unlock Dresser
-  - Hold physics button down to get to unlock dresser
-  - Input the combo to unlock cabinet
-  - Pick up explosive device and inset into wall socket
-  - Find wand and fire projectile at explosive device
-  - Enter library and use UI slider to activate lights
-  startGameBool: 0
-  challengeNumber: 0
 --- !u!114 &1975755233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60682,44 +60656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559059fd0f27d26449c6a85c1ab00117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  progressControl: {fileID: 0}
-  progressSound: {fileID: 2007100963}
-  startGameClip: {fileID: 8300000, guid: a9111467000a3ba4aa985d1aa06805c1, type: 3}
-  challengeCompleteClip: {fileID: 8300000, guid: dff3014fa4e23374685962fafb39949f, type: 3}
-  grabInteractables: []
-  grabSound: {fileID: 1335380326}
-  grabClip: {fileID: 8300000, guid: a7d20e9f23bd7cc449823e482e098902, type: 3}
-  keyClip: {fileID: 8300000, guid: 256bdb10da09c744f86381dce72934e6, type: 3}
-  activatedSound: {fileID: 1786402965}
-  grabActivatedClip: {fileID: 8300000, guid: a7d20e9f23bd7cc449823e482e098902, type: 3}
-  wandActivatedClip: {fileID: 8300000, guid: 79f0548b92e2b2c48a00514b4f9aa04a, type: 3}
-  drawer: {fileID: 8884346408297993648}
-  drawerSocket: {fileID: 0}
-  drawerPhysicsButton: {fileID: 0}
-  drawerSound: {fileID: 0}
-  drawerSocketSound: {fileID: 0}
-  drawerMoveClip: {fileID: 0}
-  drawerSocketClip: {fileID: 0}
-  cabinetDoors:
-  - {fileID: 7336642526581524254}
-  - {fileID: 6003112905920721514}
-  cabinetDoorSound: []
-  cabinetDoorMoveClip: {fileID: 0}
-  comboLock: {fileID: 0}
-  comboLockSound: {fileID: 0}
-  lockComboClip: {fileID: 0}
-  unlockComboClip: {fileID: 0}
-  comboButtonPressedClip: {fileID: 0}
-  wall: {fileID: 1198122166}
-  wallSocket: {fileID: 0}
-  wallSound: {fileID: 0}
-  wallSocketSound: {fileID: 0}
-  destroyWallClip: {fileID: 0}
-  wallSocketClip: {fileID: 0}
-  backgroundMusic: {fileID: 1861685642}
-  backgroundMusicClip: {fileID: 8300000, guid: 2315c96bb61588a48b64b102cb7dae7c, type: 3}
-  fallBackClip: {fileID: 0}
-  startAudioBool: 0
 --- !u!1 &2040172831
 GameObject:
   m_ObjectHideFlags: 0
